@@ -1,0 +1,33 @@
+
+
+ .footerParentDiv{
+  width: 100%;
+ }
+ .contents{
+  display: flex;
+  justify-content: space-around;
+  background: #ebeeef;
+  padding: 0 100px;
+  align-items: start;
+ }
+.list-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.list-section ul{
+  list-style-type: none;
+  font-size: 13px;
+}
+.list-section p{
+  font-weight: 700;
+}
+.list-section i{
+  font-size: 20px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.follow{
+  font-size: 13px;
+}
